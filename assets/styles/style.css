@@ -146,12 +146,13 @@ header h2{
     transition-delay: 1.2s;
 }
 .scroll-wrapper {
-    position: absolute;
+    position:relative;
     left: 50%;
     transform: translate(-50%);
     bottom:3.5vw;
     color: rgb(217,217,217);
     font-size: calc(0.8rem + 0.5vw);
+    margin-top: 10%;
 }
 
 .about {
